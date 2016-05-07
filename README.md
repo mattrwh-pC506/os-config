@@ -7,11 +7,11 @@ Everything is stored in a repo with the .gitignore file set to ignore everything
 # Installation
 
     cd ~
-    git clone https://github.com/johndgiese/config
-    cd config
+    git clone https://github.com/mattrwh/os-config
+    cd os-config
     mv * .[^.]* ..
     cd ..
-    rm -rf config
+    rm -rf os-config
 
 If you want to use the basic vimrc create a symlink
 

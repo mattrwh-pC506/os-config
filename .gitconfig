@@ -1,0 +1,22 @@
+[user]
+    name = Matthew R. Whitt
+    email = mwhitt.w@gmail.com
+[color]
+    diff = true
+    ui = true
+    status = true
+    branch = true
+	us = true
+[core]
+	editor = vim
+	autcrlf = false
+[init]
+	templatedir = ~/.git_template
+[alias]
+	ctags = !.git/hooks/ctags
+[credential]
+	helper = cache --timeout 604800
+[push]
+    default = upstream
+[merge]
+    tool = vimdiff
